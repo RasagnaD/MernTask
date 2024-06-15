@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .vertical-nav {
+    width: 200px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .vertical-nav a {
+    display: block;
+    color: blue;
+    padding: 14px;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  .vertical-nav a.active {
+    background-color: orange;
+    color: white;
+  }
+  
+  .vertical-nav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .vertical-nav a:not(.active) {
+    background-color: #add8e6; /* Light blue */
+  }
+  

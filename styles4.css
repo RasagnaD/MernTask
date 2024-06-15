@@ -1,0 +1,60 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.sidenav {
+    height: 100%;
+    width: 80px; /* Adjusted for the icon size */
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.sidenav a {
+    padding: 15px 15px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    margin: 5px 0;
+    width: 100%;
+    text-align: center;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+.sidenav a:hover {
+    width: 200px;
+    text-align: left;
+    color: white;
+    padding-left: 20px;
+    background-color: #575757;
+}
+
+.sidenav a.green { background-color: #4CAF50; }
+.sidenav a.blue { background-color: #2196F3; }
+.sidenav a.red { background-color: #f44336; }
+.sidenav a.gray { background-color: #555; }
+
+.sidenav a.green:hover { background-color: #45a049; }
+.sidenav a.blue:hover { background-color: #0b7dda; }
+.sidenav a.red:hover { background-color: #da190b; }
+.sidenav a.gray:hover { background-color: #333; }
+
+.main {
+    margin-left: 120px; /* Adjusted to give space for the sidenav */
+    padding: 20px;
+}
+
+h2 {
+    margin-top: 0;
+}
